@@ -17,13 +17,13 @@ sudo curl -s https://cdn.geekros.com/robotchain/install.sh|bash
 Clone the repository to your Ubuntu device using `git`.
 
 ```shell
-git clone git@github.com:geekros/rosbridge_suite.git
+git clone git@github.com:geekros/base_node_package.git
 ```
 
 ## 📖 Build
 
 ```shell
-cd rosbridge_suite
+cd base_node_package
 ```
 
 ```shell
@@ -39,7 +39,7 @@ colcon build --packages-select rosbridge_suite
 ## 📖 Publishing a Debian (deb) software package.
 
 ```shell
-cd rosbridge_suite
+cd base_node_package
 ```
 
 Packaging into a deb file.
@@ -57,7 +57,7 @@ robotchain publish
 ## 📖 Install
 
 ```shell
-sudo apt install rosbridge_suite_package
+sudo apt install base_node_package
 ```
 
 ## 🌞 Development Team

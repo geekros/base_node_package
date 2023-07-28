@@ -2,7 +2,6 @@
 .DS*
 .git
 .vscode
-main
 debian
 build
 install

@@ -32,6 +32,8 @@ mkdir build && cd build
 cmake .. && make && sudo make install
 cd ../ && sudo rm -rf build && cd ../
 
+sudo cp /usr/local/lib/libserial.so ./debian/opt/tros/lib/
+
 colcon build --packages-select serial_port_node
 colcon build --packages-select vision_dnn
 ```

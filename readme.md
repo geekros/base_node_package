@@ -27,13 +27,13 @@ cd base_node_package
 ```
 
 ```shell
-colcon build --packages-select rosapi_msgs
-colcon build --packages-select rosbridge_msgs
-colcon build --packages-select rosbridge_test_msgs
-colcon build --packages-select rosbridge_library
-colcon build --packages-select rosapi
-colcon build --packages-select rosbridge_server
-colcon build --packages-select rosbridge_suite
+cd serial_foxy
+mkdir build && cd build
+cmake .. && make && sudo make install
+cd ../ && sudo rm -rf build && cd ../
+
+colcon build --packages-select serial_port_node
+colcon build --packages-select vision_dnn
 ```
 
 ## 📖 Publishing a Debian (deb) software package.

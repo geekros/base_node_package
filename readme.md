@@ -4,9 +4,9 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-> 这个功能包已经在robotchain内置了，无需重复安装，下面的文档仅供手动编译构建学习参考。
+> 已经内置在robotchain中，无需单独、重复安装，该仓库仅供学习参考。
 >
-> This package is already built-in within `robotchain`, so there's no need for redundant installation. The following documentation is provided for manual compilation and building as a reference for learning purposes.
+> It is already built-in within robotchain, so there is no need for separate or redundant installation. This repository is provided for learning and reference purposes only.
 
 ## 📖 Initialization
 
@@ -53,7 +53,7 @@ cd rosbridge_suite
 >Packaging into a `deb` file.
 
 ```shell
-robotchain pack package
+robotchain pack
 ```
 > 发布deb到软件源
 >

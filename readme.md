@@ -17,6 +17,7 @@
 ```shell
 sudo curl -s https://cdn.geekros.com/robotchain/install.sh|bash
 ```
+
 > 使用git克隆仓库到Ubuntu设备。
 >
 > Clone the repository to your Ubuntu device using `git`.

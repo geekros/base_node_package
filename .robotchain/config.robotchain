@@ -1,0 +1,9 @@
+{
+    "type": "package",
+    "title": "base_node_package",
+    "document": {
+        "git": "https://github.com/geekros/base_node_package",
+        "wiki": ""
+    },
+    "version": "1.0.0"
+}

@@ -2,8 +2,8 @@
 .DS*
 .git
 .vscode
+*.deb
 debian
 build
 install
 log
-

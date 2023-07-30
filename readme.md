@@ -33,18 +33,6 @@ cd base_node_package
 sudo ./package.sh
 ```
 
-```shell
-cd serial_foxy
-mkdir build && cd build
-cmake .. && make && sudo make install
-cd ../ && sudo rm -rf build && cd ../
-
-sudo cp /usr/local/lib/libserial.so /opt/tros/lib/
-
-colcon build --packages-select serial_port_node
-colcon build --packages-select vision_dnn
-```
-
 ## 📖 Install
 
 ```shell

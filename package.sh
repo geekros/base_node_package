@@ -75,7 +75,6 @@ export architecture_str
 sudo -E sh -c 'echo $architecture_str >> debian/DEBIAN/control'
 sudo sh -c 'echo "Installed-Size: 5000" >> debian/DEBIAN/control'
 sudo sh -c 'echo "Section: utils" >> debian/DEBIAN/control'
-sudo sh -c 'echo "Depends: git" >> debian/DEBIAN/control'
 sudo sh -c 'echo "Description: robotchain and robot" >> debian/DEBIAN/control'
 
 sudo dpkg --build debian/ && dpkg-name debian.deb

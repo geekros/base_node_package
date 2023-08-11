@@ -48,6 +48,7 @@ if [ ! -f "/usr/local/lib/libserial.so" ]; then
 fi
 
 sudo cp /usr/local/lib/libserial.so /opt/tros/lib/
+sudo cp /usr/local/lib/libserial.so debian/opt/tros/lib/
 
 colcon build --packages-select serial_port_node
 colcon build --packages-select vision_dnn

@@ -25,6 +25,8 @@ if [ ! -d "debian" ]; then
     mkdir -p debian/opt/tros/share
     mkdir -p debian/opt/tros/lib
     mkdir -p debian/opt/tros/include
+    mkdir -p debian/opt/robotchain/manager/"${type}"/"${title}"/
+    sudo cp -r .robotchain debian/opt/robotchain/manager/"${type}"/"${title}"/
 else
     sudo rm -rf debian
     mkdir -p debian
@@ -33,6 +35,8 @@ else
     mkdir -p debian/opt/tros/share
     mkdir -p debian/opt/tros/lib
     mkdir -p debian/opt/tros/include
+    mkdir -p debian/opt/robotchain/manager/"${type}"/"${title}"/
+    sudo cp -r .robotchain debian/opt/robotchain/manager/"${type}"/"${title}"/
 fi
 
 echo -e "\033[32mStarting to build the deb software package for you...\033[0m"
